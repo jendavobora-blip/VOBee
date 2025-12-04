@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - ENVIRONMENT=development
+    volumes:
+      - ./backend/app:/app/app
+    restart: unless-stopped
+
+  # Future services for TTS and Avatar generation
+  # tts:
+  #   image: coqui/tts
+  #   ports:
+  #     - "5002:5002"
+  #
+  # sadtalker:
+  #   build:
+  #     context: ./sadtalker
+  #   ports:
+  #     - "5003:5003"

@@ -1,0 +1,59 @@
+# Flutter
+vobee_app/.dart_tool/
+vobee_app/.packages
+vobee_app/.pub-cache/
+vobee_app/.pub/
+vobee_app/build/
+vobee_app/*.lock
+
+# Android
+vobee_app/android/.gradle/
+vobee_app/android/local.properties
+vobee_app/android/gradle/
+vobee_app/android/gradlew
+vobee_app/android/gradlew.bat
+
+# iOS
+vobee_app/ios/.symlinks/
+vobee_app/ios/Pods/
+vobee_app/ios/Flutter/
+
+# Python
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.pyc
+backend/.pytest_cache/
+backend/venv/
+backend/.env
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.apk
+*.ipa
+*.aab
+dist/
+
+# Test coverage
+coverage/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# Docker
+.docker/
+
+# Temporary files
+tmp/
+*.tmp
